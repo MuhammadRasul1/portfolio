@@ -1,0 +1,158 @@
+/* about us */
+
+.about-us {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about-us__wrapper {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.about-us__title {
+    font-size: 90px;
+    line-height: 130%; 
+}
+
+.about-us__info {
+    max-width: 1193px;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 130%; 
+}
+
+.about-us__info-span {
+    display: inline-block;
+    color: var(--Blue, #21468D);
+    font-size: 60px;;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.about-us__right-wrapper {
+    display: flex;
+    align-items: start;
+    margin-top: 32px;
+}
+
+.about-us__text {
+    max-width: 533px;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.about-us__text:first-child {
+    margin-right: 129px;
+}
+
+@include breakpoint-down(1535px) {
+    .about-us__title {
+        font-size: 70px;
+    }
+
+    .about-us__info {
+        max-width: 873px;
+        font-size: 48px;
+    }
+
+    .about-us__info-span {
+        font-size: 48px;
+    }
+
+    .about-us__right-wrapper {
+        margin-top: 26px;
+    }
+
+    .about-us__text {
+        max-width: 426px;
+        font-size: 18px;
+    }
+
+    .about-us__text:first-child {
+        margin-right: 20px;
+    }
+}
+
+@include breakpoint-down(1100px) {
+    .about-us {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .about-us__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about-us__title {
+        font-size: 48px;
+        margin-bottom: 48px;
+    }
+
+    .about-us__info {
+        max-width: 716px;
+        font-size: 30px;
+    }
+
+    .about-us__info-span {
+        font-size: 30px;
+    }
+
+    .about-us__right-wrapper {
+        margin-top: 24px;
+    }
+
+    .about-us__text {
+        max-width: 348px;
+        font-size: 16px;
+    }
+
+    .about-us__text:first-child {
+        margin-right: 21px;
+    }
+}
+
+@include breakpoint-down(500px) {
+    .about-us {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .about-us__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about-us__title {
+        font-size: 42px;
+        margin-bottom: 24px;
+    }
+
+    .about-us__info {
+        max-width: 351px;
+        font-size: 22px;
+    }
+
+    .about-us__info-span {
+        font-size: 22px;
+    }
+
+    .about-us__right-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 24px;
+    }
+
+    .about-us__text {
+        max-width: 351px;
+        font-size: 14px;
+    }
+
+    .about-us__text:first-child {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+}
+

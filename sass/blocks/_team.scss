@@ -1,0 +1,30 @@
+.team {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.team__desc {
+    max-width: 890px;
+    margin-bottom: 42px;
+    font-size: 32px;
+    line-height: 130%; 
+}
+
+.team__list {
+    list-style: none;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team__item:not(:last-child) {
+    margin-right: 20px;
+}
+
+@include breakpoint-down(500px) {
+    .team__img {
+        width: 289px;
+        height: 415px;
+    }
+}

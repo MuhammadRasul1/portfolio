@@ -1,0 +1,29 @@
+
+/* GENERAL */
+html {
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+  
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-x: hidden;
+  color: var(--Black, #000);
+  background-color: #fff;
+  font: 400 24px/normal 'Montserrat', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}

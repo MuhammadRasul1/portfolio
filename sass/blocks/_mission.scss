@@ -1,0 +1,178 @@
+/* mission */
+
+/* eyetronic */
+
+.mission {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.mission__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mission__title {
+    max-width: 847px;
+    font-size: 90px;
+    line-height: 130%; 
+}
+
+.mission__desc {
+    max-width: 887px;
+    font-size: 24px;
+    line-height: 130%; 
+}
+
+.mission__img {
+    margin-top: 80px;
+    margin-bottom: 42px;
+}
+
+.mission__bottom {
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+}
+
+.mission__bottom-left {
+    max-width: 435px;
+    margin-right: 20px;
+}
+
+.mission__subtitle {
+    margin-bottom: 18px;
+    font-size: 32px;
+    line-height: 130%;
+}
+
+.mission__text {
+    max-width: 435px;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; 
+}
+
+@include breakpoint-down(1480px) {
+    .mission__title {
+        max-width: 538px;
+        font-size: 70px;
+    }
+    
+    .mission__desc {
+        max-width: 650px;
+        font-size: 18px; 
+    }
+    
+    .mission__img {
+        width: 1480px;
+        height: 700px;
+        margin-bottom: 32px;
+    }
+    
+    .mission__bottom-left {
+        max-width: 426px;
+    }
+    
+    .mission__subtitle {
+        margin-bottom: 18px;
+        font-size: 28px;
+    }
+    
+    .mission__text {
+        max-width: 426px;
+        font-size: 16px; 
+    }
+}
+
+@include breakpoint-down(1110px) {
+    .mission {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .mission__top {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .mission__title {
+        max-width: 538px;
+        margin-bottom: 24px;
+        font-size: 48px; 
+    }
+    
+    .mission__desc {
+        max-width: 1110px;
+        font-size: 18px; 
+    }
+    
+    .mission__img {
+        margin-top: 48px;
+        width: 1110px;
+        height: 500px;
+    }
+    
+    .mission__bottom-left {
+        max-width: 347px;
+    }
+    
+    .mission__subtitle {
+        font-size: 26px;
+    }
+    
+    .mission__text {
+        max-width: 347px;
+    }
+}
+
+@include breakpoint-down(750px) {
+    .mission {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .mission__title {
+        max-width: 169px;
+        font-size: 32px;
+    }
+    
+    .mission__desc {
+        max-width: 750px;
+        font-size: 16px; 
+    }
+    
+    .mission__img {
+        margin-top: 24px;
+        margin-bottom: 24px;
+        width: 750px;
+        height: 250px;
+    }
+    
+    .mission__bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: flex-start;
+    }
+    
+    .mission__bottom-left {
+        max-width: 750px;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+    
+    .mission__subtitle {
+        margin-bottom: 16px;
+        font-size: 26px;
+    }
+    
+    .mission__text {
+        max-width: 750px;
+        font-size: 16px;
+    }    
+}

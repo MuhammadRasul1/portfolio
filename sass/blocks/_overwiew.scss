@@ -1,0 +1,139 @@
+/* overwiew */
+
+.overwiew {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.overwiew__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.overwiew__item {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.overwiew__item:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+.overwiew__title {
+    font-size: 60px;
+    line-height: 130%; 
+}
+
+.overwiew__desc {
+    max-width: 539px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 20px;
+    line-height: 130%; 
+}
+
+.overwiew__link {
+    display: inline-block;
+    color: var(--Blue, #21468D);
+    font-size: 18px;
+}
+
+@include breakpoint-down(1500px) {
+    .overwiew {
+        padding-top: 80px;
+    }
+    
+    .overwiew__title {
+        font-size: 48px; 
+    }
+    
+    .overwiew__desc {
+        max-width: 558px;
+        font-size: 18px; 
+    }
+    
+    .overwiew__link {
+        font-size: 18px;
+    }
+    
+    .overwiew__img {
+        width: 650px;
+        height: 550px;
+    } 
+}
+
+@include breakpoint-down(1100px) {
+    .overwiew {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .overwiew__item:not(:last-child) {
+        margin-bottom: 60px;
+    }
+
+    .overwiew__left {
+        max-width: 370px;
+    }
+    
+    .overwiew__title {
+        font-size: 32px; 
+    }
+    
+    .overwiew__desc {
+        margin-top: 24px;
+        margin-bottom: 24px;
+        font-size: 16px;
+    }
+    
+    .overwiew__link {
+        font-size: 16px;
+    }  
+
+    .overwiew__img {
+        width: 307px;
+        height: 300px;
+    } 
+}
+
+@include breakpoint-down(650px) {
+    .overwiew {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .overwiew__item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .overwiew__item:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    .overwiew__left {
+        max-width: 351px;
+    }
+    
+    .overwiew__title {
+        font-size: 26px; 
+    }
+    
+    .overwiew__desc {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        font-size: 14px; 
+    }
+    
+    .overwiew__link {
+        margin-bottom: 16px;
+    }  
+
+    .overwiew__img {
+        width: 351px;
+        height: 300px;
+    } 
+}

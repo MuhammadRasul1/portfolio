@@ -1,0 +1,176 @@
+/* eyetronic */
+
+.eyetronic {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.eyetronic__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eyetronic__title {
+    max-width: 847px;
+    font-size: 90px;
+    line-height: 130%; 
+}
+
+.eyetronic__desc {
+    max-width: 887px;
+    font-size: 24px;
+    line-height: 130%; 
+}
+
+.eyetronic__img {
+    margin-top: 80px;
+    margin-bottom: 42px;
+}
+
+.eyetronic__bottom {
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+}
+
+.eyetronic__bottom-left {
+    max-width: 435px;
+    margin-right: 20px;
+}
+
+.eyetronic__subtitle {
+    margin-bottom: 18px;
+    font-size: 32px;
+    line-height: 130%;
+}
+
+.eyetronic__text {
+    max-width: 435px;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; 
+}
+
+@include breakpoint-down(1480px) {
+    .eyetronic__title {
+        max-width: 538px;
+        font-size: 70px;
+    }
+    
+    .eyetronic__desc {
+        max-width: 650px;
+        font-size: 18px; 
+    }
+    
+    .eyetronic__img {
+        width: 1480px;
+        height: 700px;
+        margin-bottom: 32px;
+    }
+    
+    .eyetronic__bottom-left {
+        max-width: 426px;
+    }
+    
+    .eyetronic__subtitle {
+        margin-bottom: 18px;
+        font-size: 28px;
+    }
+    
+    .eyetronic__text {
+        max-width: 426px;
+        font-size: 16px; 
+    }
+}
+
+@include breakpoint-down(1110px) {
+    .eyetronic {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .eyetronic__top {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .eyetronic__title {
+        max-width: 538px;
+        margin-bottom: 24px;
+        font-size: 48px; 
+    }
+    
+    .eyetronic__desc {
+        max-width: 1110px;
+        font-size: 18px; 
+    }
+    
+    .eyetronic__img {
+        margin-top: 48px;
+        width: 1110px;
+        height: 500px;
+    }
+    
+    .eyetronic__bottom-left {
+        max-width: 347px;
+    }
+    
+    .eyetronic__subtitle {
+        font-size: 26px;
+    }
+    
+    .eyetronic__text {
+        max-width: 347px;
+    }
+}
+
+@include breakpoint-down(750px) {
+    .eyetronic {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .eyetronic__title {
+        max-width: 169px;
+        font-size: 32px;
+    }
+    
+    .eyetronic__desc {
+        max-width: 750px;
+        font-size: 16px; 
+    }
+    
+    .eyetronic__img {
+        margin-top: 24px;
+        margin-bottom: 24px;
+        width: 750px;
+        height: 250px;
+    }
+    
+    .eyetronic__bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: flex-start;
+    }
+    
+    .eyetronic__bottom-left {
+        max-width: 750px;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+    
+    .eyetronic__subtitle {
+        margin-bottom: 16px;
+        font-size: 26px;
+    }
+    
+    .eyetronic__text {
+        max-width: 750px;
+        font-size: 16px;
+    }    
+}

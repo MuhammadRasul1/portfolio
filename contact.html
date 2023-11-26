@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udevs - contact</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__wrapper">
+            <button class="header__burger-btn js-burger-btn" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <a href="index.html" class="header__logo">
+                <img class="header__logo" src="img/icon/header-logo.svg" alt="udevs" width="208" height="34">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="index.html">Главная</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="about-us.html">О нас</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="our-services.html">Наши Услуги</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="project.html">Проекты</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="contact.html">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="header__link link" href="contact.html">Начните свой проект</a>
+        </div>
+    </header>
+    <main>
+        <section class="contact">
+            <div class="container contact__wrapper">
+                <h1 class="contact__title">Контакты</h1>
+                <p class="contact__desc">Если у вас есть вопросы или предложения, связанные с нашей IT-компанией, мы будем рады общению с вами. Ниже приведены наши контактные данные:</p>
+            </div>
+        </section>
+        <section class="intro">
+            <div class="container intro__wrapper">
+                <h2 class="visually-hidden">Contact</h2>
+                <a class="intro__link" href="tel:998932800015">+ 998 (93) 280-00-15</a>
+                <a class="intro__email" href="mailto:udevs4help@gmail.com">udevs4help@gmail.com</a>
+            </div>
+        </section>
+        <section class="connect">
+            <div class="container connect__wrapper">
+                <h2 class="connect__title">Связаться с нами</h2>
+                <p class="connect__desc">Мы всегда открыты для новых связей и готовы обсудить возможности сотрудничества. Не стесняйтесь связаться с нами, мы будем рады услышать вас!</p>
+                <form class="connect__form" method="get">
+                    <div class="connect__form-wrapper">
+                        <input class="input" type="text" name="name" id="name" aria-label="name" placeholder="Ф.И.О" minlength="2" required>
+                    </div>
+                    <div class="connect__form-wrapper">
+                        <input class="input" type="tel" name="number" id="number" aria-label="telephone-number" placeholder="+ 998" minlength="8" required>
+                    </div>
+                    <div class="connect__form-wrapper">
+                        <input class="input" type="email" name="email" id="email" aria-label="email" placeholder="pochta@gmail.ru" required>
+                    </div>
+                    <button class="connect__btn" type="submit">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <nav class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item">
+                            <p class="footer__title">Ссылки</p>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a class="footer__nav-link" href="index.html">Главная</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a class="footer__nav-link" href="about-us.html">О нас</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a class="footer__nav-link" href="our-services.html">Наши Услуги</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a class="footer__nav-link" href="project.html">Проекты</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a class="footer__nav-link" href="contact.html">Контакты</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="footer__nav-item">
+                            <p class="footer__title">Соц сети</p>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a class="footer__nav-link" href="https://instagram.com/udevs.io?igshid=eThyaG8wMmdnaGlo">Instagram</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a class="footer__nav-link" href="#">Linkedin</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a class="footer__nav-link" href="#">Telegram</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a class="footer__nav-link" href="#">WhatsApp</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a class="footer__nav-link" href="#">facebook</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__right">
+                    <a class="footer__number" href="tel:998932800015">+ 998 (93) 280-00-15</a>
+                    <a class="footer__email" href="mailto:udevs4help@gmail.com">udevs4help@gmail.com</a>
+                </div>
+            </div>
+            <a class="footer__logo" href="index.html">
+                <img class="footer__logo-img" src="img/icon/header-logo.svg" alt="udevs" width="276" height="45">
+            </a>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>

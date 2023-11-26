@@ -1,0 +1,19 @@
+.link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 18px;
+    border: 1px solid #000;
+    background: #000;
+    color: var(--White, #FFF);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: background-color 0.8s;
+}
+
+.link:hover {
+    background-color: var(--Blue, #21468D);;
+}
